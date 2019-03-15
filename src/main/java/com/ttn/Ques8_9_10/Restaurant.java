@@ -1,9 +1,8 @@
-package com.ttn.Ques8;
+package com.ttn.Ques8_9_10;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Required;
-import org.springframework.stereotype.Component;
 
 //@Component
 public class Restaurant {

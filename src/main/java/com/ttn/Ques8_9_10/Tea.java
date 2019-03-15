@@ -1,4 +1,4 @@
-package com.ttn.Ques8;
+package com.ttn.Ques8_9_10;
 
 import org.springframework.stereotype.Component;
 
