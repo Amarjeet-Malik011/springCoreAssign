@@ -9,6 +9,7 @@ public class Restaurant {
     HotDrink hotDrink;
     private Tea tea;
     private ExpressTea expressTea;
+
     public void setTea(Tea tea) {
         this.tea = tea;
     }
@@ -31,4 +32,5 @@ public class Restaurant {
 
     public Restaurant() {
     }
+
 }

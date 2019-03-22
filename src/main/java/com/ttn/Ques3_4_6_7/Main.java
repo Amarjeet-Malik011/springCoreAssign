@@ -18,10 +18,8 @@ public class Main {
         Restaurant teaRestaurant=context.getBean("teaRestaurant",Restaurant.class);
         Restaurant teaRestaurant1=context.getBean("teaRestaurant",Restaurant.class);
         if(teaRestaurant.equals(teaRestaurant1))
-            System.out.println("single Object");
-        else 
-            System.out.println("Different Object every time because of prototype");
-
-            
+            System.out.println("scope : singleton");
+        else
+            System.out.println("scope : prototype");
     }
 }

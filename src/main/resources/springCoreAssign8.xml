@@ -6,21 +6,12 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
-    <context:component-scan base-package="com.ttn.Ques8_9_10"/>
+    <context:component-scan base-package="com.ttn.Ques8"/>
     <context:annotation-config/>
 
-    <!--for Ques 8-->
-    <!--<bean id="tea" class="com.ttn.Ques8_9_10_9_10.Tea"/>-->
-    <bean id="expressTea" class="com.ttn.Ques8_9_10.ExpressTea"/>
-    <bean id="teaRestaurant" class="com.ttn.Ques8_9_10.Restaurant" scope="prototype">
+    <bean id="teaRestaurant" class="com.ttn.Ques8.Restaurant">
         <property name="hotDrink">
-            <bean id="tea" class="com.ttn.Ques8_9_10.Tea"/>
+            <bean id="tea" class="com.ttn.Ques8.Tea"/>
         </property>
     </bean>
-    <bean id="expressTeaRestaurant" class="com.ttn.Ques8_9_10.Restaurant">
-        <property name="hotDrink">
-            <bean id="expressTea" class="com.ttn.Ques8_9_10.ExpressTea"/>
-        </property>
-    </bean>
-
 </beans>

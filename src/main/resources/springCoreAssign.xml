@@ -6,7 +6,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
-    <context:component-scan base-package="com.ttn.Ques3_4_6_7"/>
+    <context:component-scan base-package="com.ttn.*"/>
     <context:annotation-config/>
 
     <!-- for Ques 1&2 -->
